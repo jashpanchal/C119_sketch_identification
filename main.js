@@ -2,7 +2,7 @@ function setup(){
     canvas = createCanvas(280,280);
     canvas.center();
     background("white");
-    synth = window.SpeechSynthesis;
+    synth = window.speechSynthesis;
     canvas.mouseReleased(classifyCanvas);
 }
 
