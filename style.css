@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(cyan 0%, aqua 50%, blue 100%);
+}
+h1{
+    color: blueviolet;
+    background-color: wheat;
+}
+#open_sketch{
+    float:right;
+    margin-top: 2px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 90px;    
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px darkgrey;}
+    to{box-shadow: 1px 1px 38px whitesmoke;}
+}
+p{
+    font-size: 25px;
+    padding-top: 12px;
+}
